@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 750px) {
   header .header-block .form-block {
-    width: 80%;
+    width: 70%;
   }
   header .header-block .sroll {
     display: none;
@@ -54,6 +54,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  header .header-block {
+    padding-top: 220px;
+  }
   header .header-block form {
     margin: 0px;
   }
@@ -73,9 +76,10 @@
 
 @media screen and (max-width: 1120px) {
   .choose {
-    height: 1000px;
+    height: 1050px;
   }
   .choose .choose-block {
+    padding-top: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -103,6 +107,12 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+  .choose .choose-img img {
+    width: 300px;
+  }
+  .choose .choose-img img:nth-child(1) {
+    margin-bottom: 10px;
   }
   .choose .choose-img div {
     margin-left: 0px;
