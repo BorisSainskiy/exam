@@ -199,3 +199,86 @@ header .header-block .sroll img {
 .bhromaon .bhromaon-block ul li:not(:last-child) {
   margin-right: 42px;
 }
+
+.choose {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/Rectangle_7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.choose .choose-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.choose .choose-text {
+  padding-top: 60px;
+}
+
+.choose .choose-text .title {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Aleo;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.choose .choose-text .paragraf {
+  width: 530px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Josefin Sans;
+  color: #ffffff;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  margin: 0px;
+}
+
+.choose .choose-text .paragraf:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.choose .choose-text a {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Aleo;
+  color: #ffffff;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  padding: 24px 38px;
+}
+
+.choose .choose-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.choose .choose-img img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.choose .choose-img div {
+  margin-left: 100px;
+}
+
+.choose .choose-img div:nth-child(2) {
+  margin-left: 220px;
+}
