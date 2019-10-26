@@ -1,0 +1,193 @@
+@import "./mixin.scss";
+@import "./variebles.scss";
+
+@font-face {
+  font-family: "Conv_Aleo-Bold";
+  src: url("../fonts/Aleo-Bold.eot");
+  src: local("☺"), url("../fonts/Aleo-Bold.woff") format("woff"),
+    url("../fonts/Aleo-Bold.ttf") format("truetype"),
+    url("../fonts/Aleo-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Aleo-Regular";
+  src: url("../fonts/Aleo-Regular.eot");
+  src: local("☺"), url("../fonts/Aleo-Regular.woff") format("woff"),
+    url("../fonts/Aleo-Regular.ttf") format("truetype"),
+    url("../fonts/Aleo-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Aleo-LightItalic";
+  src: url("../fonts/Aleo-LightItalic.eot");
+  src: local("☺"), url("../fonts/Aleo-LightItalic.woff") format("woff"),
+    url("../fonts/Aleo-LightItalic.ttf") format("truetype"),
+    url("../fonts/Aleo-LightItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Aleo-Light";
+  src: url("../fonts/Aleo-Light.eot");
+  src: local("☺"), url("../fonts/Aleo-Light.woff") format("woff"),
+    url("../fonts/Aleo-Light.ttf") format("truetype"),
+    url("../fonts/Aleo-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Aleo-Italic";
+  src: url("../fonts/Aleo-Italic.eot");
+  src: local("☺"), url("../fonts/Aleo-Italic.woff") format("woff"),
+    url("../fonts/Aleo-Italic.ttf") format("truetype"),
+    url("../fonts/Aleo-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Conv_Aleo-BoldItalic";
+  src: url("../fonts/Aleo-BoldItalic.eot");
+  src: local("☺"), url("../fonts/Aleo-BoldItalic.woff") format("woff"),
+    url("../fonts/Aleo-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Aleo-BoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  height: 770px;
+  background-image: url(../img/header-bgr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header-block {
+    margin: auto;
+    padding-top: 265px;
+
+    h1 {
+      margin: 0px;
+      height: 40px;
+      @include text($mainColor1, Josefin Sans, 48px, 700);
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 4.8px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    p {
+      height: 21px;
+      @include text($mainColor1, Josefin Sans, 22px, 400);
+      line-height: 26px;
+      letter-spacing: 6.82px;
+      margin: 0px;
+      margin-bottom: 75px;
+      text-align: center;
+    }
+
+    //dont forget ADAPT
+    form {
+      margin-left: 50px;
+    }
+    //dont forget ADAPT
+
+    input {
+      width: 500px;
+      height: 60px;
+      background-color: $mainColor1;
+      text-align: center;
+      border: none;
+    }
+
+    .form-block {
+      width: 40%;
+      margin: 0 auto;
+      background-color: $mainColor1;
+      display: flex;
+    }
+
+    button {
+      margin-top: 2px;
+      width: 148px;
+      height: 58px;
+      //   border: 2px solid $mainColor1;
+      background-color: $buttonBgColorHeader;
+      @include text($mainColor1, Aleo, 14px, 400);
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      border: none;
+    }
+
+    .sroll-text {
+      @include text($mainColor1, Josefin Sans, 14px, 400);
+      line-height: 26px;
+      letter-spacing: 2.8px;
+      opacity: 0.7;
+    }
+
+    .sroll {
+      margin-top: 120px;
+      position: relative;
+
+      img {
+        position: absolute;
+        left: 49.5%;
+        top: 150%;
+      }
+    }
+  }
+}
+
+.bhromaon {
+  width: 100%;
+  height: 80px;
+  background-color: $bgColorBhromaon;
+
+  input {
+    display: none;
+  }
+
+  .bhromaon-block {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    h2 {
+      @include text($mainColor1, Josefin Sans, 24px, 700);
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+    }
+
+    nav {
+      align-self: center;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        a {
+          @include text($mainColor1, Aleo, 14px, 400);
+          line-height: 26px;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+
+        &:not(:last-child) {
+          margin-right: 42px;
+        }
+      }
+    }
+  }
+}

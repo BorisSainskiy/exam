@@ -1,0 +1,72 @@
+@media screen and (max-width: 1200px) {
+  header .header-block .form-block {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header .header-block .form-block {
+    width: 80%;
+  }
+  header .header-block .sroll {
+    display: none;
+  }
+  header .bhromaon .bhromaon-block {
+    margin-top: 265px;
+  }
+  header .bhromaon .bhromaon-block ul {
+    display: none;
+  }
+  header .bhromaon .bhromaon-block ul a {
+    display: block;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Aleo;
+    color: #ffffff;
+    width: 120px;
+  }
+  header .bhromaon .bhromaon-block nav {
+    position: relative;
+  }
+  header .bhromaon .bhromaon-block .bs-button {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    color: #ffffff;
+  }
+  header .bhromaon .bhromaon-block .bs-button::after {
+    content: attr(data-open);
+    display: block;
+  }
+  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] ul {
+    display: block;
+    position: absolute;
+    right: 200%;
+    bottom: 500%;
+  }
+  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] .bs-button::after {
+    content: attr(data-close);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .header-block form {
+    margin: 0px;
+  }
+  header .header-block .form-block {
+    position: relative;
+  }
+  header .header-block .form-block button {
+    position: absolute;
+    top: 110%;
+    left: 25%;
+  }
+  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] ul {
+    right: 50%;
+    bottom: 400%;
+  }
+}
