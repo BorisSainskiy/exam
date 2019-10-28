@@ -8,11 +8,26 @@
       }
     }
   }
+
+  .select-tools {
+    height: 650px;
+    .select-tools-block {
+      flex-direction: column;
+
+      .select-tools-mini-block {
+        text-align: center;
+        &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 750px) {
   header {
     .header-block {
+      padding-top: 220px;
       .form-block {
         width: 70%;
       }
@@ -74,7 +89,7 @@
 @media screen and (max-width: 500px) {
   header {
     .header-block {
-      padding-top: 220px;
+      // padding-top: 220px;
       form {
         margin: 0px;
       }
