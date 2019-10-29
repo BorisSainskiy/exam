@@ -1,5 +1,17 @@
 @import "./mixin.scss";
 @import "./variebles.scss";
+@media screen and (max-width: 1320px) {
+  .book {
+    padding: 0px;
+    display: flex;
+
+    .book-block {
+      padding-left: 0px;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
 @media screen and (max-width: 1200px) {
   header {
     .header-block {

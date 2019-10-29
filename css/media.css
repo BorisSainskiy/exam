@@ -1,3 +1,17 @@
+@media screen and (max-width: 1320px) {
+  .book {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .book .book-block {
+    padding-left: 0px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   header .header-block .form-block {
     width: 60%;
