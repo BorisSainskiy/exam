@@ -1,5 +1,12 @@
 @import "./mixin.scss";
 @import "./variebles.scss";
+@media screen and (max-width: 1475px) {
+  .new-bg {
+    .book-block {
+      margin-left: 700px;
+    }
+  }
+}
 @media screen and (max-width: 1320px) {
   .book {
     padding: 0px;
@@ -130,7 +137,9 @@
 
   .book {
     .book-block {
-      width: 95%;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 80%;
     }
   }
 }

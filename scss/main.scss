@@ -302,7 +302,6 @@ header {
   background-image: url(../img/Rectangle_414.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 330px;
   padding-top: 230px;
 
   .book-block {
@@ -312,6 +311,7 @@ header {
     opacity: 0.9;
     padding-left: 30px;
     padding-top: 50px;
+    margin-left: 330px;
 
     p {
       margin: 0px;
@@ -354,5 +354,7 @@ header {
 
 .new-bg {
   background-image: url(../img/Rectangle_4141.png);
-  padding-left: 900px;
+  .book-block {
+    margin-left: 900px;
+  }
 }

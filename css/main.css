@@ -346,7 +346,6 @@ header .header-block .sroll img {
   background-image: url(../img/Rectangle_414.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 330px;
   padding-top: 230px;
 }
 
@@ -357,6 +356,7 @@ header .header-block .sroll img {
   opacity: 0.9;
   padding-left: 30px;
   padding-top: 50px;
+  margin-left: 330px;
 }
 
 .book .book-block p {
@@ -410,5 +410,8 @@ header .header-block .sroll img {
 
 .new-bg {
   background-image: url(../img/Rectangle_4141.png);
-  padding-left: 900px;
+}
+
+.new-bg .book-block {
+  margin-left: 900px;
 }
