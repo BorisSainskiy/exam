@@ -166,7 +166,7 @@ header {
   }
 
   .bhromaon-block {
-    padding-top: 10px;
+    // padding-top: 10px;
     display: flex;
     justify-content: space-around;
 
@@ -175,6 +175,7 @@ header {
       line-height: 26px;
       text-transform: uppercase;
       letter-spacing: 2.4px;
+      padding-top: 5px;
     }
 
     nav {

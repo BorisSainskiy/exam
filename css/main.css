@@ -173,7 +173,6 @@ header .header-block .sroll img {
 }
 
 .bhromaon .bhromaon-block {
-  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,6 +188,7 @@ header .header-block .sroll img {
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
+  padding-top: 5px;
 }
 
 .bhromaon .bhromaon-block nav {
