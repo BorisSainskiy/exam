@@ -162,6 +162,10 @@ header .header-block .sroll img {
   top: 150%;
 }
 
+header .header-block .sroll a {
+  text-decoration: none;
+}
+
 .bhromaon {
   width: 100%;
   height: 80px;
