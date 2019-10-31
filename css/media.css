@@ -208,6 +208,9 @@
   .about .about-block > div .about-text {
     margin-left: 30px;
   }
+  .about .about-block > div .about-text::before {
+    bottom: 95%;
+  }
   footer {
     height: 200px;
   }

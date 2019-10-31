@@ -236,6 +236,10 @@
 
         .about-text {
           margin-left: 30px;
+
+          &::before {
+            bottom: 95%;
+          }
         }
 
         width: 90%;

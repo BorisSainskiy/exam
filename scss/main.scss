@@ -407,6 +407,13 @@ header {
       line-height: 25px;
       margin-left: 60px;
       width: 80%;
+      position: relative;
+
+      &::before {
+        content: url(../img/koma.png);
+        position: absolute;
+        bottom: 90%;
+      }
     }
   }
 }

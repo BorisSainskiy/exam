@@ -493,6 +493,13 @@ header .header-block .sroll img {
   line-height: 25px;
   margin-left: 60px;
   width: 80%;
+  position: relative;
+}
+
+.about .about-block .about-text::before {
+  content: url(../img/koma.png);
+  position: absolute;
+  bottom: 90%;
 }
 
 footer {
