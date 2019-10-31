@@ -41,6 +41,58 @@
       }
     }
   }
+
+  .about {
+    height: 900px;
+
+    > div {
+      height: 700px;
+    }
+
+    .about-block {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .choose {
+    height: 1050px;
+    .choose-block {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .choose-text {
+      order: 2;
+      text-align: center;
+
+      .paragraf {
+        width: 300px;
+        align-self: center;
+      }
+    }
+
+    .choose-img {
+      order: 1;
+      img {
+        width: 300px;
+
+        &:nth-child(1) {
+          margin-bottom: 10px;
+        }
+      }
+      div {
+        margin-left: 0px;
+
+        &:nth-child(2) {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -103,6 +155,33 @@
       }
     }
   }
+
+  .about {
+    height: 800px;
+    .about-block {
+      img {
+        width: 70%;
+        margin: auto;
+      }
+
+      > div {
+        .about-title {
+          margin: 0px;
+          margin-bottom: 20px;
+        }
+
+        .about-text {
+          margin-left: 50px;
+        }
+
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -140,45 +219,28 @@
       padding-left: 20px;
       padding-right: 20px;
       width: 80%;
+      height: 400px;
     }
   }
-}
 
-@media screen and (max-width: 1120px) {
-  .choose {
-    height: 1050px;
-    .choose-block {
-      padding-top: 50px;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .choose-text {
-      order: 2;
-      text-align: center;
-
-      .paragraf {
-        width: 300px;
-        align-self: center;
-      }
-    }
-
-    .choose-img {
-      order: 1;
+  .about {
+    .about-block {
       img {
-        width: 300px;
-
-        &:nth-child(1) {
-          margin-bottom: 10px;
-        }
+        width: 90%;
       }
-      div {
-        margin-left: 0px;
 
-        &:nth-child(2) {
-          margin-left: 0px;
+      > div {
+        .about-title {
+          margin-bottom: 20px;
         }
+
+        .about-text {
+          margin-left: 30px;
+        }
+
+        width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
       }
     }
   }
