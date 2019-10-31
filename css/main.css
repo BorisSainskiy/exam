@@ -486,3 +486,51 @@ header .header-block .sroll img {
   margin-left: 60px;
   width: 80%;
 }
+
+footer {
+  width: 100%;
+  height: 268px;
+  background-color: #232323;
+}
+
+footer .footer-block {
+  padding-top: 120px;
+  text-align: center;
+}
+
+footer .footer-block p {
+  margin: 0px;
+}
+
+footer .footer-block .footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Josefin Sans;
+  color: #ffffff;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3.36px;
+  margin-bottom: 15px;
+}
+
+footer .footer-block .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Josefin Sans;
+  color: #ffffff;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+}
+
+footer .footer-block i {
+  color: #ffffff;
+}
+
+footer .footer-block i:hover {
+  color: #5474fd;
+}
+
+footer .footer-block a:not(:last-child) {
+  margin-right: 25px;
+}
