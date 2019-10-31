@@ -120,9 +120,12 @@ header {
     }
 
     button {
-      // margin-top: 2px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       align-self: center;
-      margin-right: 1px;
+      margin-right: 0.5px;
       width: 150px;
       height: 63px;
       background-color: $buttonBgColorHeader;
