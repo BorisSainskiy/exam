@@ -115,7 +115,7 @@ header {
       justify-content: space-between;
 
       > div {
-        border: 2px solid white;
+        border: 2px solid $mainColor1;
       }
     }
 
@@ -283,10 +283,12 @@ header {
     margin: auto;
     position: relative;
 
-    // > img {
-    //   position: absolute;
-    //   bottom: 100%;
-    // }
+    > img {
+      position: absolute;
+      bottom: 102%;
+      right: 19.2%;
+      width: 700px;
+    }
 
     .select-tools-mini-block {
       display: flex;

@@ -31,6 +31,9 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .select-tools .select-tools-block > img {
+    display: none;
+  }
   .select-tools .select-tools-block .select-tools-mini-block {
     text-align: center;
   }

@@ -112,7 +112,7 @@ header .header-block .form-block {
 }
 
 header .header-block .form-block > div {
-  border: 2px solid white;
+  border: 2px solid #ffffff;
 }
 
 header .header-block button {
@@ -327,6 +327,13 @@ header .header-block .sroll a {
   width: 1100px;
   margin: auto;
   position: relative;
+}
+
+.select-tools .select-tools-block > img {
+  position: absolute;
+  bottom: 102%;
+  right: 19.2%;
+  width: 700px;
 }
 
 .select-tools .select-tools-block .select-tools-mini-block {

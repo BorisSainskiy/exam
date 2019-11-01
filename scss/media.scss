@@ -32,6 +32,9 @@
     height: 650px;
     .select-tools-block {
       flex-direction: column;
+      > img {
+        display: none;
+      }
 
       .select-tools-mini-block {
         text-align: center;
