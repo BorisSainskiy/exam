@@ -24,7 +24,7 @@
     <title>Travel-More</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header-block">
         <h1>Bhromaon</h1>
         <p>Safe Travel Anywhere</p>
@@ -46,23 +46,26 @@
       <section class="bhromaon" id="nav">
         <div class="bhromaon-block">
           <h2>Bhromaon</h2>
-          <input type="checkbox" id="bs-menu-checkbox" />
-          <nav role="navigation">
-            <label
-              for="bs-menu-checkbox"
-              class="bs-button"
-              data-open="MENU"
-              data-close="CLOSE"
-              onclick
-            ></label>
+          <nav>
             <ul class="bs-main-menu">
               <li><a href="#choose">Who We Are</a></li>
               <li><a href="#tools">What We Do</a></li>
               <li><a href="#book">Travel With Us</a></li>
               <li><a href="#about">Contact Us</a></li>
             </ul>
+            <div id="open">MENU</div>
           </nav>
         </div>
+      </section>
+      <section id="menu">
+        <nav>
+          <ul>
+            <li><a href="#choose">Who We Are</a></li>
+            <li><a href="#tools">What We Do</a></li>
+            <li><a href="#book">Travel With Us</a></li>
+            <li><a href="#about">Contact Us</a></li>
+          </ul>
+        </nav>
       </section>
     </header>
     <section class="choose" id="choose">
@@ -172,5 +175,7 @@
         ></a>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

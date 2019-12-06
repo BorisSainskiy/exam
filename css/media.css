@@ -1,223 +1,139 @@
 @media screen and (max-width: 1475px) {
   .new-bg .book-block {
-    margin-left: 700px;
-  }
-}
+    margin-left: 700px; } }
 
 @media screen and (max-width: 1320px) {
   .book {
     padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-  }
-  .book .book-block {
-    padding-left: 0px;
-    margin: auto;
-    text-align: center;
-  }
-}
+    display: flex; }
+    .book .book-block {
+      padding-left: 0px;
+      margin: auto;
+      text-align: center; } }
 
 @media screen and (max-width: 1200px) {
-  header .header-block .form-block {
-    width: 60%;
-  }
+  header .form-block {
+    width: 60%; }
   .select-tools {
-    height: 650px;
-  }
-  .select-tools .select-tools-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .select-tools .select-tools-block > img {
-    display: none;
-  }
-  .select-tools .select-tools-block .select-tools-mini-block {
-    text-align: center;
-  }
-  .select-tools .select-tools-block .select-tools-mini-block:not(:last-child) {
-    margin-bottom: 30px;
-  }
+    height: 650px; }
+    .select-tools .select-tools-block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .select-tools .select-tools-block > img {
+        display: none; }
+      .select-tools .select-tools-block .select-tools-mini-block {
+        text-align: center; }
+        .select-tools .select-tools-block .select-tools-mini-block:not(:last-child) {
+          margin-bottom: 30px; }
   .about {
-    height: 900px;
-  }
-  .about > div {
-    height: 700px;
-  }
-  .about .about-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-}
+    height: 900px; }
+    .about > div {
+      height: 700px; }
+    .about .about-block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 @media screen and (max-width: 1120px) {
   .choose {
-    height: 1050px;
-  }
-  .choose .choose-block {
-    padding-top: 50px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .choose .choose-text {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    text-align: center;
-  }
-  .choose .choose-text .paragraf {
-    width: 300px;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  .choose .choose-img {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-  .choose .choose-img img {
-    width: 300px;
-  }
-  .choose .choose-img img:nth-child(1) {
-    margin-bottom: 10px;
-  }
-  .choose .choose-img div {
-    margin-left: 0px;
-  }
-  .choose .choose-img div:nth-child(2) {
-    margin-left: 0px;
-  }
-}
+    height: 1050px; }
+    .choose .choose-block {
+      padding-top: 50px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .choose .choose-text {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      text-align: center; }
+      .choose .choose-text .paragraf {
+        width: 300px;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center; }
+    .choose .choose-img {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
+      .choose .choose-img img {
+        width: 300px; }
+        .choose .choose-img img:nth-child(1) {
+          margin-bottom: 10px; }
+      .choose .choose-img div {
+        margin-left: 0px; }
+        .choose .choose-img div:nth-child(2) {
+          margin-left: 0px; } }
 
 @media screen and (max-width: 750px) {
+  header .form-block {
+    width: 70%; }
   header .header-block {
-    padding-top: 220px;
-  }
-  header .header-block .form-block {
-    width: 70%;
-  }
-  header .header-block .sroll {
-    display: none;
-  }
+    padding-top: 220px; }
+    header .header-block .sroll {
+      display: none; }
   header .bhromaon .bhromaon-block {
-    margin-top: 265px;
-  }
-  header .bhromaon .bhromaon-block ul {
-    display: none;
-  }
-  header .bhromaon .bhromaon-block ul a {
-    display: block;
-    padding: 5px;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: Aleo;
-    color: #ffffff;
-    width: 120px;
-  }
-  header .bhromaon .bhromaon-block nav {
-    position: relative;
-  }
-  header .bhromaon .bhromaon-block .bs-button {
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    font-family: Josefin Sans;
-    color: #ffffff;
-  }
-  header .bhromaon .bhromaon-block .bs-button::after {
-    content: attr(data-open);
-    display: block;
-  }
-  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] ul {
-    display: block;
-    position: absolute;
-    right: 200%;
-    bottom: 500%;
-  }
-  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] .bs-button::after {
-    content: attr(data-close);
-  }
+    margin-top: 265px; }
+    header .bhromaon .bhromaon-block ul {
+      display: none; }
+    header .bhromaon .bhromaon-block #open {
+      display: block; }
   .about {
-    height: 800px;
-  }
-  .about .about-block img {
-    width: 70%;
-    margin: auto;
-  }
-  .about .about-block > div {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .about .about-block > div .about-title {
-    margin: 0px;
-    margin-bottom: 20px;
-  }
-  .about .about-block > div .about-text {
-    margin-left: 50px;
-  }
-}
+    height: 800px; }
+    .about .about-block img {
+      width: 70%;
+      margin: auto; }
+    .about .about-block > div {
+      width: 70%;
+      margin: auto;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      .about .about-block > div .about-title {
+        margin: 0px;
+        margin-bottom: 20px; }
+      .about .about-block > div .about-text {
+        margin-left: 50px; } }
 
 @media screen and (max-width: 500px) {
-  header .header-block form {
-    margin: 0px;
-  }
-  header .header-block .form-block {
-    position: relative;
-  }
-  header .header-block .form-block button {
-    position: absolute;
-    top: 125%;
-    left: 20%;
-  }
-  header .bhromaon .bhromaon-block #bs-menu-checkbox:checked + nav[role="navigation"] ul {
-    right: 50%;
-    bottom: 400%;
-  }
+  header form {
+    margin: 0px; }
+  header .form-block {
+    position: relative; }
+    header .form-block button {
+      position: absolute;
+      top: 125%;
+      left: 20%; }
   .book .book-block {
     padding-left: 20px;
     padding-right: 20px;
     width: 80%;
-    height: 400px;
-  }
+    height: 400px; }
   .about .about-block img {
-    width: 90%;
-  }
+    width: 90%; }
   .about .about-block > div {
     width: 90%;
     padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .about .about-block > div .about-title {
-    margin-bottom: 20px;
-  }
-  .about .about-block > div .about-text {
-    margin-left: 30px;
-  }
-  .about .about-block > div .about-text::before {
-    bottom: 95%;
-  }
+    padding-bottom: 30px; }
+    .about .about-block > div .about-title {
+      margin-bottom: 20px; }
+    .about .about-block > div .about-text {
+      margin-left: 30px; }
+      .about .about-block > div .about-text::before {
+        bottom: 95%; }
   footer {
-    height: 200px;
-  }
-  footer .footer-block {
-    padding-top: 50px;
-  }
-}
+    height: 200px; }
+    footer .footer-block {
+      padding-top: 50px; } }
